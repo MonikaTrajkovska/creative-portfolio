@@ -1,8 +1,9 @@
 import React from 'react'
 import './portfolio.css'
 import  {SideNav}  from '../SideNav/SideNav'
+import { SectionContainer } from '../SectionContainer/SectionContainer'
 
-export const Portfolio=({ handleSectionClick})=>{
+export const Portfolio=({ handleSectionClick,about,skills,selectedSection,selectedHeading,selectedQuote,projects,education})=>{
 
     return(
         <div className='portfolio-container'>
@@ -13,7 +14,14 @@ export const Portfolio=({ handleSectionClick})=>{
           
             </div> 
         <div className='main-section-container'>
-            <h1>Main Section</h1>
+           <SectionContainer
+            about={about}
+            education={education}
+            skills={skills}
+            projects={projects}
+            selectedSection={selectedSection}
+            selectedHeading={selectedHeading}
+            selectedQuote={selectedQuote}/>
         </div>
         </div>
     )
