@@ -2,3 +2,13 @@
     font-size: 17px;
     white-space: pre-wrap;
 }
+.about-container p{
+    font-weight: bold;
+}
+.info{
+ 
+    display: flex;
+   justify-content: space-between; 
+   padding-right: 55px;
+   /* margin-left: 20px; */
+}
