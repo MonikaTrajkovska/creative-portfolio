@@ -5,7 +5,7 @@ export const about={
     "email":"trajkovska.monika@yahoo.com",
     "phone":"077/909-438",
     "location":"Skopje,Macedonia",
-    "resume":"https://drive.google.com/file/d/1vStyMAR_U_KSgDudTmbeJgJ-voU-al0C/view?usp=sharing",
+    "resume":"https://drive.google.com/file/d/1L6YqlLWvWjaUWQRDC57B6tVmK3rEbQgl/view?usp=sharing",
     "github":"https://github.com/MonikaTrajkovska",
     "linkedin":"https://www.linkedin.com/in/monika-trajkovska-mladenovski-a847a61b4/"
 
