@@ -14,7 +14,7 @@ export const projects={
         },
         {
             name:"Movie Finder",
-            description:"Front-end developed project, created with ReactJS. I used a prepared API.",
+            description:"Front-end developed project, created with ReactJS. I used materialize CSS and prepared API.",
             link:"https://monikatrajkovska.github.io/Movie-app/"
         },
     ]

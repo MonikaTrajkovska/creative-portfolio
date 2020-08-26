@@ -4,7 +4,7 @@ import {About} from "../About/About"
 import {Skills} from '../Skills/Skills'
 import { Project } from '../Project/Project'
 import { Education } from '../Education/Education'
-export const SectionContainer=({ handleSectionClick,about,skills,selectedSection,selectedHeading,selectedQuote,projects,education})=>{
+export const SectionContainer=({ handleClick,about,skills,selectedSection,selectedHeading,selectedQuote,projects,education})=>{
     return(
         <div className="section">
             <div className="section-heading">
