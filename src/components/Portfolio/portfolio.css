@@ -1,4 +1,4 @@
-.portfolio-container {
+.portfolio {
     background-color: #f7f7f7;
     margin: 20px;
     margin-left: 15%;
@@ -11,19 +11,19 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .sidenav-container {
+    .sidenav {
         border-bottom: 1px solid black;
         border-radius: 0;
         padding-bottom: 32px;
     }
 
-    .portfolio-container {
+    .portfolio {
         margin-left: 5%;
         width: 90%;
     }
 }
 
-.portfolio-container:hover {
+.portfolio:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 

@@ -12,7 +12,7 @@
 // }
 export const education={
     heading:"Education",
-    quote:"I am web developer searching for experince",
+    
     semos:[
         "During the course , I gained skills with languages and frameworks such as Javascript,DOM,ReactJS, NodeJS and MongoDB, altogether with multiple libraries"
     ],

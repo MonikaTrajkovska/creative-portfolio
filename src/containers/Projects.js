@@ -1,6 +1,6 @@
 export const projects={
     heading:"Projects",
-    quote:"Take experience by writing code",
+
     projectList:[
         {
             name:  "Expense Calculator",
@@ -15,7 +15,7 @@ export const projects={
         {
             name:"Movie Finder",
             description:"Front-end developed project, created with ReactJS. I used a prepared API.",
-            link:"https://github.com/MonikaTrajkovska/Movie-app"
+            link:"https://monikatrajkovska.github.io/Movie-app/"
         },
     ]
 }

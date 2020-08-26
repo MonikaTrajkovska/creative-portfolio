@@ -1,12 +1,12 @@
 import React from 'react'
 import {ProjectCard} from './../ProjectCard/ProjectCard'
 
-import {projects} from './../../constants/Projects'
+import {projects} from '../../containers/Projects'
 export const Project=({props})=>{
     return(
-        <div className='projects-container'>
+        <div className='projects'>
           
-            <div className="industry-skill-container">
+            <div className="skill-container">
        {
           projects.projectList.map(project=> <ProjectCard key={project} project={project}/>)
           

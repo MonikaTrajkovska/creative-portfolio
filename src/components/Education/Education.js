@@ -15,7 +15,7 @@
 // )
 // }
 import React from 'react'
- import {education} from './../../constants/education'
+ import {education} from '../../containers/education'
  import { EducationCard } from '../Education/EducationCard'
  import './../Skills/Skills.css'
 
@@ -27,14 +27,14 @@ export const Education=(props)=>{
             
           
           <h4>SEMOS EDUCATION,Skopje,North Macedonia</h4>
-           <div className="industry-skill-container">
+           <div className="skill-container">
        {
           education.semos.map(educations=> <EducationCard key={educations} education={educations}/>)
           
        }
   </div> 
         <h4>Digital Marketing Academy “Creative Hub</h4>
-        <div className="industry-skill-container">
+        <div className="skill-container">
        {
           
             education.marketing.map(educations=> <EducationCard key={educations} education={educations}/>)
@@ -45,7 +45,7 @@ export const Education=(props)=>{
     </div>
      
        <h4>Faculty of Philology “Blaze Koneski”-University “St. Cyril and Methodius” Skopje</h4>
-       <div className="industry-skill-container">  
+       <div className="skill-container">  
        {
           education.faculty.map(educations=> <EducationCard key={educations} education={educations}/>)
           

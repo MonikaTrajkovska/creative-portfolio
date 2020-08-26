@@ -3,7 +3,7 @@ import './skill-card.css'
 
 export const SkillCard=({skill})=>{
     return(
-        <div className="skill-card">
+        <div className="card">
             {skill}
         </div>
     )

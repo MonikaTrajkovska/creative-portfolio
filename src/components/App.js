@@ -2,10 +2,10 @@ import React from 'react'
 import './App.css'
 import { Portfolio } from './Portfolio/Portfolio'
 // import {SideNav} from './SideNav/SideNav'
-import {about} from '../constants/about'
-import {skills} from './../constants/skills'
-import {projects} from './../constants/Projects'
-import {education} from './../constants/education'
+import {about} from '../containers/about'
+import {skills} from '../containers/skills'
+import {projects} from '../containers/Projects'
+import {education} from '../containers/education'
 
 class  App extends React.Component{
     constructor(){
@@ -13,7 +13,6 @@ class  App extends React.Component{
         this.state={
             selectedSection:"",
             selectedHeading:"",
-            selectedQuote:"",
             about:null,
             skills:null,
             projects:null,
@@ -24,23 +23,23 @@ class  App extends React.Component{
     componentDidMount(){
         this.setState({
             selectedSection:"about",
-            selectedSection:"education",
+           
             education,
             about,
             skills,
             projects,
             
             selectedHeading:about.heading,
-            selectedQuote:about.quote
+            
         })
     }
 
-    handleSectionClick=(sectionName)=>{
+    handleClick=(section)=>{
        this.setState({
-        selectedSection:sectionName,
+        selectedSection:section,
         
-        selectedHeading:this.state[sectionName].heading,
-        selectedQuote:this.state[sectionName].quote
+        selectedHeading:this.state[section].heading,
+       
     })
 }
     render(){
@@ -52,9 +51,9 @@ class  App extends React.Component{
              education={this.state.education}
              selectedSection={this.state.selectedSection}
              selectedHeading={this.state.selectedHeading}
-             selectedQuote={this.state.selectedQuote}
+            
              projects={this.state.projects}
-              handleSectionClick={this.handleSectionClick}/>
+              handleClick={this.handleClick}/>
              {/* <SideNav/> */}
             </div>
         )

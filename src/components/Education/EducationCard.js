@@ -3,7 +3,7 @@ import React from 'react'
 
 export const EducationCard=({education})=>{
     return(
-        <div className="skill-card">
+        <div className="card">
             {education}
         </div>
     )

@@ -1,6 +1,6 @@
 export const skills={
     heading:"Skills",
-    quote:"Building yor skills not yor resume",
+  
     frontend:[
         
         "HTML",

@@ -1,14 +1,14 @@
 import React from 'react'
 import './portfolio.css'
 import  {SideNav}  from '../SideNav/SideNav'
-import { SectionContainer } from '../SectionContainer/SectionContainer'
+import { SectionContainer } from '../Section/SectionContainer'
 
-export const Portfolio=({ handleSectionClick,about,skills,selectedSection,selectedHeading,selectedQuote,projects,education})=>{
+export const Portfolio=({ handleClick,about,skills,selectedSection,selectedHeading,projects,education})=>{
 
     return(
-        <div className='portfolio-container'>
+        <div className='portfolio'>
             <div className='sidenav-container'> 
-            <SideNav  handleSectionClick={ handleSectionClick}/>
+            <SideNav  handleClick={ handleClick}/>
           
           
           
@@ -21,7 +21,7 @@ export const Portfolio=({ handleSectionClick,about,skills,selectedSection,select
             projects={projects}
             selectedSection={selectedSection}
             selectedHeading={selectedHeading}
-            selectedQuote={selectedQuote}/>
+            />
         </div>
         </div>
     )

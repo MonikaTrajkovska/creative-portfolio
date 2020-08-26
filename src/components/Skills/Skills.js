@@ -1,5 +1,5 @@
 import React from 'react'
- import {skills} from './../../constants/skills'
+ import {skills} from '../../containers/skills'
  import { SkillCard } from '../SkillCard/SkillCard'
 import './Skills.css'
 
@@ -10,7 +10,7 @@ export const Skills=(props)=>{
          
             
             <h4>Front-end</h4>
-            <div className="industry-skill-container">
+            <div className="skill-container">
             
        {
           skills.frontend.map(skill=> <SkillCard key={skill} skill={skill}/>)
@@ -18,7 +18,7 @@ export const Skills=(props)=>{
        }
    </div>
         <h4>Back-end</h4>
-        <div className="industry-skill-container">
+        <div className="skill-container">
        {
           skills.backend.map(skill=> <SkillCard key={skill} skill={skill}/>)
           
@@ -26,7 +26,7 @@ export const Skills=(props)=>{
     </div>
      
        <h4>Concept and skills</h4>
-       <div className="industry-skill-container">  
+       <div className="skill-container">  
        {
           skills.concept.map(skill=> <SkillCard key={skill} skill={skill}/>)
           
