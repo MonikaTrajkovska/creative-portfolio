@@ -1,6 +1,6 @@
 {
-  "homepage": "http://MonikaTrajkovska.github.io/Movie-app",
-  "name": "dbmovie",
+  "homepage": "http://MonikaTrajkovska.github.io/creative-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
