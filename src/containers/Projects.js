@@ -17,5 +17,10 @@ export const projects={
             description:"Front-end developed project, created with ReactJS. I used materialize CSS and prepared API.",
             link:"https://monikatrajkovska.github.io/Movie-app/"
         },
+        {
+            name:"Recipe Finder",
+            description:"Front-end developed project, created with ReactJS. I used plain CSS and prepared API.",
+            link:"https://monikatrajkovska.github.io/Food-recipe-app/"
+        }
     ]
 }
